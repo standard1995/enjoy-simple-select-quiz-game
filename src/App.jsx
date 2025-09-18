@@ -4,7 +4,7 @@ import './App.css'
 function App() {
 
   return (
-    <h1>Simple Select Quiz Game</h1>
+    <h1 className='text-3xl font-bold underline'>Simple Select Quiz Game</h1>
   )
 }
 
