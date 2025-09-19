@@ -1,10 +1,11 @@
+import { useNavigate } from 'react-router-dom';
 import background from '../assets/Background_Cliffhouse.jpg'
 
 
 const Home = () => {
+    const navigate = useNavigate()
     const start = () => {
-        console.log("start");
-        
+        navigate('/game');
     }
     return (
         <div className="w-full h-full text-center p-8 flex flex-col justify-center items-center  gap-32" style={{ backgroundImage: `url(${background})` }}>

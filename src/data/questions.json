@@ -1,0 +1,52 @@
+[
+  {
+    "question": "How many types of people are in the world?",
+    "answers": ["3", "5", "10"],
+    "correctAnswer": "3"
+  },
+  {
+    "question": "What is the largest animal?",
+    "answers": ["Pig", "Dog", "Elephant"],
+    "correctAnswer": "Elephant"
+  },
+  {
+    "question": "What is the most expensive metal?",
+    "answers": ["Gold", "Silver", "Copper"],
+    "correctAnswer": "Gold"
+  },
+  {
+    "question": "What is the largest country in the world?",
+    "answers": ["China", "United States", "Russia", "Brazil"],
+    "correctAnswer": "Russia"
+  },
+  {
+    "question": "What is the most populous country?",
+    "answers": ["China", "India", "Pakistan"],
+    "correctAnswer": "India"
+  },
+  {
+    "question": "What is the most exciting game in the world?",
+    "answers": ["Foodball", "Table Tennis", "Taekwondo"],
+    "correctAnswer": "Foodball"
+  },
+  {
+    "question": "How many continents are there in the world?",
+    "answers": ["5", "6", "7"],
+    "correctAnswer": "7"
+  },
+  {
+    "question": "How many oceans are there in the world?",
+    "answers": ["4", "5", "6"],
+    "correctAnswer": "5"
+  },
+  {
+    "question": "Which ocean is the largest?",
+    "answers": ["Pacific Ocean", "Atlantic Ocean", "Indian Ocean"],
+    "correctAnswer": "Pacific Ocean"
+  },
+  {
+    "question": "Where is France?",
+    "answers": ["Asia", "Europe", "Africa"],
+    "correctAnswer": "Europe"
+  }
+]
