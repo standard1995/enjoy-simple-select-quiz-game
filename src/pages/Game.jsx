@@ -14,7 +14,7 @@ const Game = () => {
 
     useEffect(() => {
         const timer = setTimeout(() => {
-            setMarks(prev => String(Math.max(Number(prev) - 1, 0)));
+            setMarks(prev => ({ ...prev, score: String(Math.max(Number(prev.score) -1, 0)) }));
             checkAnswer('*');
         }, 60000);
 
@@ -29,17 +29,19 @@ const Game = () => {
         if (quiz.correctAnswer == answer) {
             console.log(answer);
             console.log("right");
-            setMarks(marks + 1);
+            setMarks(prev => ({ ...prev, score: String(Math.max(Number(prev.score) + 1)) }));
         } else {
             console.log("wrong")
         };
-
+        console.log('marks', marks);
+        
 
         setTimeout(() => {
-            setQuizNum(quizNum + 1);
             setSelected('');
             if (quizNum >= questions.length - 1) {
                 navigate('/end');
+            } else {
+                setQuizNum(quizNum + 1);
             }
             start();
         }, 1000);

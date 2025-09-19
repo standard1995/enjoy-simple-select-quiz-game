@@ -9,7 +9,10 @@ export const MarksContext = createContext();
 
 import './App.css';
 function App() {
-  const [marks, setMarks] = useState(0);
+  const [marks, setMarks] = useState({
+    name: '',
+    score: 0
+  });
   return (
     <div className='w-[100vw] h-[100vh]'>
       <MarksContext.Provider value={[marks, setMarks]}>
